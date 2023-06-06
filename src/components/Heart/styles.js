@@ -18,6 +18,7 @@ export const Container = styled.div`
     font-size: 1rem;
     padding: 0 1rem;
     text-align: justify;
+    color: #b3b7bd;
   }
 
   img {
