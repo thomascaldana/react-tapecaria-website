@@ -1,12 +1,12 @@
-function Home(){
+import { Container } from "../Home/styles";
 
+function Home() {
   return (
-    <div>
+    <Container>
       <h1>Home</h1>
       <p>Essa é a Home</p>
-    </div>
-
-  )
+    </Container>
+  );
 }
 
-export default Home
+export default Home;
