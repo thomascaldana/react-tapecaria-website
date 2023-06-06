@@ -1,5 +1,6 @@
 import { Container } from "./styles";
 import MainImg from "../../assets/antes-e-depois-main.png";
+import Button from "../Button";
 
 function Heart() {
   return (
@@ -10,6 +11,7 @@ function Heart() {
         sofás, cadeiras, poltronas, etc... trazendo muita qualidade, bom gosto e
         sofisticação aos nossos clientes. Damos uma nova vida ao seu móvel.
       </p>
+      <Button />
       <img src={MainImg} alt="" />
     </Container>
   );

@@ -5,8 +5,8 @@ function Button() {
   return (
     <Link>
       <BlueButton>
-        <p>Entre em contato</p>
-        <img src={WhatsAppLogo} alt="" style={{ width: "50px" }} />
+        <span>Entre em contato</span>
+        <img src={WhatsAppLogo} alt="" />
       </BlueButton>
     </Link>
   );

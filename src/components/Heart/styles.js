@@ -12,6 +12,7 @@ export const Container = styled.div`
     font-weight: 300;
     text-align: center;
     font-family: "Lilita One", cursive;
+    margin-bottom: 1.5rem;
   }
 
   p {
@@ -19,9 +20,11 @@ export const Container = styled.div`
     padding: 0 1rem;
     text-align: justify;
     color: #b3b7bd;
+    margin-bottom: 0.7rem;
   }
 
   img {
     max-width: 80vw;
+    box-shadow: 0 0 10px rgba(50, 50, 50, 0.2);
   }
 `;

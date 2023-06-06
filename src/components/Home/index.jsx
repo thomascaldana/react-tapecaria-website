@@ -8,7 +8,6 @@ function Home() {
     <Container>
       <Header />
       <Heart />
-      <Button />
       <h1>Home</h1>
       <p>Essa é a Home</p>
     </Container>

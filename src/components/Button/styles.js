@@ -12,6 +12,8 @@ export const Link = styled.a`
 
 export const BlueButton = styled.button`
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 0.8rem;
   background: #4176cc;
   padding: 0.3rem 1rem;
@@ -20,6 +22,11 @@ export const BlueButton = styled.button`
   font-size: 1rem;
   font-family: Verdana;
   font-weight: 700;
+  color: #efeffb;
+
+  img {
+    width: 36px;
+  }
   cursor: pointer;
   @media screen and (min-width: 520px) {
   }
