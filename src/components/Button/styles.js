@@ -23,11 +23,25 @@ export const BlueButton = styled.button`
   font-family: Verdana;
   font-weight: 700;
   color: #efeffb;
+  cursor: pointer;
 
   img {
     width: 36px;
+    background-size: cover;
+    animation: zoomEffect 2s infinite;
   }
-  cursor: pointer;
+  @keyframes zoomEffect {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
   @media screen and (min-width: 520px) {
   }
 `;
