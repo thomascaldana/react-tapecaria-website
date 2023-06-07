@@ -40,12 +40,17 @@ export const Container = styled.footer`
     h2 {
       font-size: 1.6rem;
     }
+
+    span {
+      font-size: 1rem;
+    }
   }
 `;
 
 export const Section = styled.section`
   h3 {
     margin-bottom: 0.5rem;
+    font-size: 1.2rem;
   }
 
   p {
@@ -54,5 +59,30 @@ export const Section = styled.section`
     color: #b3b7bd;
     word-spacing: 3px;
     line-height: 20px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    h3 {
+      margin-bottom: 0.7rem;
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+
+      line-height: 1.8rem;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    h3 {
+      margin-bottom: 0.8rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+
+      line-height: 1.9rem;
+    }
   }
 `;
