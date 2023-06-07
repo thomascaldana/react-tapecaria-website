@@ -25,7 +25,7 @@ export const Images = styled.div`
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  margin: 1rem 1rem;
+  margin: 1rem 0.3rem;
   gap: 1rem;
   img {
     width: 17rem;
