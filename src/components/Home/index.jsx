@@ -5,6 +5,7 @@ import Location from "../Location";
 import { Container } from "../Home/styles";
 import Jobs from "../Jobs";
 import Services from "../Services";
+import Footer from "../Footer";
 
 function Home() {
   return (
@@ -15,8 +16,7 @@ function Home() {
       <Jobs />
       <Budget />
       <Location />
-      <h1>Home</h1>
-      <p>Essa é a Home</p>
+      <Footer />
     </Container>
   );
 }
