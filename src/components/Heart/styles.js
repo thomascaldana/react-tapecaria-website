@@ -46,7 +46,7 @@ export const Container = styled.div`
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {
     h1 {
-      font-size: 3rem;
+      font-size: 2.9rem;
       margin-bottom: calc(1.7rem + 3vw);
     }
 
@@ -60,13 +60,13 @@ export const Container = styled.div`
 
   @media screen and (min-width: 1025px) {
     h1 {
-      font-size: calc(2.9rem + 1vw + 1vh);
+      font-size: calc(2.7rem + 1vw + 1vh);
       margin-bottom: calc(1.7rem + 3vw);
     }
 
     p {
       width: calc(80% - 15vw);
-      font-size: calc(0.8rem + 1vw);
+      font-size: calc(0.7rem + 1vw);
       margin-bottom: 1.2rem;
       line-height: calc(0.8rem + 2vw + 1vh);
     }

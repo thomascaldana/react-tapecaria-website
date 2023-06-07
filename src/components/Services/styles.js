@@ -40,14 +40,14 @@ export const Container = styled.div`
 
   @media screen and (min-width: 1025px) {
     h2 {
-      font-size: calc(1.3rem + 1vw + 1vh);
+      font-size: calc(1.1rem + 1vw + 1vh);
       margin-bottom: 2vw;
       margin-top: calc(1.8rem + 3vw);
     }
 
     p {
       width: calc(80% - 15vw);
-      font-size: calc(0.8rem + 1vw);
+      font-size: calc(0.7rem + 1vw);
       margin-bottom: 1.2rem;
       line-height: calc(0.8rem + 2vw + 1vh);
     }
