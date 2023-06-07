@@ -20,9 +20,10 @@ export const Container = styled.footer`
   }
 
   span {
-    margin-top: 3rem;
+    margin-top: 5rem;
     text-align: center;
-    color: #b3b7bd;
+    color: #b3b7bf;
+    font-size: 0.8rem;
   }
   @media screen and (min-width: 520px) {
   }

@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
 
   p {
-    font-size: 1rem;
+    font-size: calc(0.65rem + 2vw);
     padding: 0 1rem;
     text-align: justify;
     color: #b3b7bd;

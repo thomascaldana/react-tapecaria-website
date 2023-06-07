@@ -10,11 +10,13 @@ export const Container = styled.header`
   margin-bottom: 20px;
 
   img {
-    width: calc(5rem + 5%);
+    width: calc(5rem + 10%);
+    max-width: 13rem;
   }
 
-  @media screen and (min-width: 520px) {
-    padding: 10px calc(3rem + 2vw) 10px calc(3rem + 2vw);
+  @media screen and (min-width: 481px) {
+    padding: 1rem calc(2rem + 2vw) 1rem calc(2rem + 2vw);
+    margin-bottom: calc(2rem + 2vw + 2vh);
   }
 `;
 
@@ -46,6 +48,13 @@ export const Li = styled.li`
 
   &:hover::after {
     width: 100%;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    font-size: 1.4rem;
+  }
+  @media screen and (min-width: 1025px) {
+    font-size: 1.6rem;
   }
 `;
 
