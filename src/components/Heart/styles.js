@@ -23,9 +23,25 @@ export const Container = styled.div`
     margin-bottom: 0.7rem;
   }
 
-  img {
-    max-width: 80vw;
-    box-shadow: 0 0 10px rgba(50, 50, 50, 0.2);
+  div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 80vw;
+      max-width: 20rem;
+    }
+
+    @media screen and (min-width: 769px) {
+      flex-flow: row nowrap;
+
+      img {
+        width: 40vw;
+        max-width: 25rem;
+      }
+    }
   }
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {

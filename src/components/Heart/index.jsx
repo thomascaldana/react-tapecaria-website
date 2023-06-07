@@ -1,5 +1,6 @@
 import { Container } from "./styles";
-import MainImg from "../../assets/antes-e-depois-main.png";
+import MainImg1 from "../../assets/antes-e-depois-main.png";
+import MainImg2 from "../../assets/antes-e-depois-main2.png";
 import Button from "../Button";
 
 function Heart() {
@@ -12,7 +13,10 @@ function Heart() {
         sofisticação aos nossos clientes. Damos uma nova vida ao seu móvel.
       </p>
       <Button />
-      <img src={MainImg} alt="" />
+      <div>
+        <img src={MainImg1} alt="foto de antes" />
+        <img src={MainImg2} alt="foto de depois" />
+      </div>
     </Container>
   );
 }
