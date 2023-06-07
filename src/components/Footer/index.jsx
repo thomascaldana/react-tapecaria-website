@@ -1,10 +1,9 @@
-import Logo from "../../assets/logo.png";
 import { Container, Section } from "./styles";
 
 function Footer() {
   return (
     <Container>
-      <img src={Logo} alt="" />
+      <h2>Tapeçaria Polyspuma</h2>
       <Section>
         <div>
           <h3>Contato</h3>

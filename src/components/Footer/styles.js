@@ -8,8 +8,12 @@ export const Container = styled.footer`
   background: #373f49;
   padding: 1rem 0.1rem;
 
-  img {
-    width: 6rem;
+  h2 {
+    font-size: 1.3rem;
+    color: rgb(174, 207, 249);
+    font-weight: 300;
+    text-align: center;
+    font-family: "Lilita One", cursive;
     margin: 0rem 0.5rem 1.2rem 0.5rem;
   }
 
@@ -25,7 +29,17 @@ export const Container = styled.footer`
     color: #b3b7bf;
     font-size: 0.8rem;
   }
-  @media screen and (min-width: 520px) {
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    h2 {
+      font-size: 1.6rem;
+    }
   }
 `;
 
