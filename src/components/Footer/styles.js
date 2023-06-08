@@ -39,6 +39,7 @@ export const Container = styled.footer`
   @media screen and (min-width: 1025px) {
     h2 {
       font-size: 1.6rem;
+      margin-bottom: 1.8rem;
     }
 
     span {
@@ -76,7 +77,8 @@ export const Section = styled.section`
 
   @media screen and (min-width: 1025px) {
     h3 {
-      margin-bottom: 0.8rem;
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
     }
 
     p {
