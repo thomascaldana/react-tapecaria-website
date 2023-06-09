@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  margin-top: calc(60px + 2vh + 2vw);
 
   h1 {
     font-size: 2.5rem;
@@ -45,6 +46,7 @@ export const Container = styled.div`
   }
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {
+    margin-top: calc(90px + 2vh + 2vw);
     h1 {
       font-size: 2.9rem;
       margin-bottom: calc(1.7rem + 3vw);
@@ -59,6 +61,7 @@ export const Container = styled.div`
   }
 
   @media screen and (min-width: 1025px) {
+    margin-top: calc(110px + 1vh + 1vw);
     h1 {
       font-size: calc(2.7rem + 1vw + 1vh);
       margin-bottom: calc(1.7rem + 3vw);

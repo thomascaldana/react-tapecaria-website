@@ -9,12 +9,12 @@ import Footer from "../Footer";
 
 function Home() {
   return (
-    <Container>
+    <Container id="">
       <Header />
       <Heart />
       <Services />
       <Jobs />
-      <Budget />
+      <Budget id="Budget" />
       <Location />
       <Footer />
     </Container>

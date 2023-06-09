@@ -7,10 +7,10 @@ function Header() {
       <img src={Logo} alt="" />
       <Menu>
         <Li>
-          <A to="/">Home</A>
+          <A href="#">Home</A>
         </Li>
         <Li>
-          <A to="/movies">Contato</A>
+          <A href="#Budget">Contato</A>
         </Li>
       </Menu>
     </Container>
